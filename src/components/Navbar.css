@@ -1,0 +1,32 @@
+/****Navbar***/
+:root {
+  --primary-pink: #f2c5ff;
+  --primary-blue: #6cd0ff;
+  --primary-voilet: #5d69be;
+  --primary-orange: #ff9c60;
+}
+#logo {
+  width: 50%;
+  height: 40%;
+}
+nav ul li {
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-left: 0.65rem;
+  font-size: larger;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+}
+/* .navbar-nav > li>Link:focus {
+  border-bottom: 0.1875rem solid var(--primary-blue);
+  color: var(--primary-pink);
+} */
+.navbar-nav > li:hover {
+  border-bottom: 0.1875rem solid var(--primary-blue);
+  color: var(--primary-pink);
+}
+.link{
+  text-decoration: none;
+}

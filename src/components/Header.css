@@ -1,0 +1,38 @@
+/***********Header css*************/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+:root {
+    --primary-white:#e9eef2;
+    --primary-blue:#1fc5a8;
+    --primary-red:#970d1a;
+    --primary-hover-red:#4e204d;
+    --primary-maroon:#870000;
+  }
+.header-wrapper {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.8)), url("../background-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+}
+.typed-text{
+    color: var(--primary-white);
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Noto Serif";
+}

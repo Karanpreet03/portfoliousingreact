@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+  font-family: "Noto Serif" sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,5 @@
     transform: rotate(360deg);
   }
 }
+
+
